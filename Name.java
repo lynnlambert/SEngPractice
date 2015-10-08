@@ -61,8 +61,7 @@ public class Name {
     }
 
     public String getSuffixProfessional() {
-        /* return Name's professional suffix */
-        return "none";
+        return suffixProfessional;
     }
 
     public String getSuffixGenerational() {
