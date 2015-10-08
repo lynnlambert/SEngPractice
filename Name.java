@@ -42,7 +42,7 @@ public class Name {
 
     public String getMiddle() {
         /* return Name's middle name */
-        return this.middle;
+        return middle;
     }
 
     public String getSurname() {
