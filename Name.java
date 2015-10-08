@@ -66,6 +66,7 @@ public class Name {
     }
 
     public String getSuffixGenerational() {
-        return suffixGenerational;
+        /* return Name's generational suffix */
+        return "none";
     }
 }
