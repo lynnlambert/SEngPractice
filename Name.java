@@ -47,7 +47,7 @@ public class Name {
 
     public String getSurname() {
         /* return Name's last name */
-        return "none";
+        return surname;
     }
 
     public String getSurnameParent1() {
@@ -57,15 +57,16 @@ public class Name {
 
     public String getSurnameParent2() {
         /* return parent2's last name */
-        return "none";
+        return "surnameParent2";
     }
 
     public String getSuffixProfessional() {
+    	/* return Name's professional suffix */
         return suffixProfessional;
     }
 
     public String getSuffixGenerational() {
         /* return Name's generational suffix */
-        return "none";
+        return suffixGenerational;
     }
 }
