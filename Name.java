@@ -32,7 +32,7 @@ public class Name {
 
     public String getTitle() {
         /* return name's title */
-        return "none";
+        return this.title;
     }
 
     public String getFirst() {
