@@ -36,7 +36,8 @@ public class Name {
     }
 
     public String getFirst() {
-        return first;
+        /* return Name's first name */
+        return "none";
     }
 
     public String getMiddle() {
@@ -56,7 +57,7 @@ public class Name {
 
     public String getSurnameParent2() {
         /* return parent2's last name */
-        return "none";
+        return "surnameParent2";
     }
 
     public String getSuffixProfessional() {
